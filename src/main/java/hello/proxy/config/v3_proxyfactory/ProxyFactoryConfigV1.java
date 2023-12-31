@@ -52,6 +52,5 @@ public class ProxyFactoryConfigV1 {
         //advice
         LogTraceAdvice advice = new LogTraceAdvice(logTrace);
         return new DefaultPointcutAdvisor(pointcut, advice);
-
     }
 }
